@@ -4,7 +4,9 @@
     outline: red 1px solid;
 } */
 @media screen and (max-width:375px) {
-    
+
+
+
 body{
     box-sizing: border-box;
     background-color: #000;
@@ -70,18 +72,22 @@ body{
 
 /* collapse-btn */
 .wrapper{
-    width: 80px;
+    width: 50px;
     /* background-color: rgb(75, 182, 185); */
     display: inline-block;
-    border-radius: 50px;
-    margin: 5px;
+    /* border-radius: 50px; */
+    /* margin: 5px; */
     position: relative;
-    padding: 20px;
+    /* padding: 20px; */
     cursor: pointer;
     z-index: 8889;
-
+    top: 10px;
+    left: 10px;
 }
-
+    
+.close{
+    float: none;
+}
 .circle{
     width: 40px;
     height: 40px;
@@ -528,6 +534,7 @@ ul.train{
 
 @media screen and (min-width:376px) {
 
+
 body{
     background: #000;
 }
@@ -581,13 +588,9 @@ body{
 
 /* collapse-btn */
 .wrapper{
-    width: 90px;
-    /* background-color: rgb(75, 182, 185); */
     display: inline-block;
-    border-radius: 50px;
-    margin: 5px;
+    margin: 0 50px;
     position: relative;
-    padding: 20px;
     cursor: pointer;
     z-index: 8889;
     
@@ -634,11 +637,7 @@ body{
     transition: .8s;
 }
 .nav-box-wrap.active{
-    /* display: flex; */
-    /* height: 1080px; */
-    /* overflow: hidden; */
-    /* position: fixed; */
-    /* top: 0; */
+   
     left:0;
 }
 .nav-box{
@@ -859,7 +858,7 @@ body{
     content: '';
     display: inline;
     /* width: 30px; */
-    height: 10px;
+    height: 8px;
     border-bottom: 1px solid #fff;
     padding: 1px 30px;
     position: absolute;
